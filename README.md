@@ -22,7 +22,7 @@ This app requires a Google Maps API key to work, follow the [Use API Keys](https
 Once you have your API key, update the [`.env`](.env) file with your key.
 
 ```sh
-VITE_GOOGLE_MAPS_API_KEY="My Google Maps API key"
+# VITE_GOOGLE_MAPS_API_KEY="My Google Maps API key"
 ```
 
 ## Running the app

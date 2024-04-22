@@ -25,7 +25,7 @@
   import SearchBar from './components/SearchBar.svelte';
   import Sections from './sections/Sections.svelte';
 
-  const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+  const googleMapsApiKey = 'AIzaSyCyUVMfUnaNaQCCQpb4Ehwh37ePLGLeCGQ';
   const defaultPlace = {
     name: '7160 Asman Ave',
     address: '7160 Asman Ave west hills ca 91307',
@@ -42,7 +42,7 @@
   onMount(async () => {
     // Load the Google Maps libraries.
     const loader = new Loader({ apiKey: googleMapsApiKey });
-    
+
     const libraries = {
       geometry: loader.importLibrary('geometry'),
       maps: loader.importLibrary('maps'),
